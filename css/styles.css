@@ -1,0 +1,134 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.big-heading{
+    line-height: 1.5 !important;
+    font-size: 3.5rem  !important;
+}
+.secondary-heading{
+    font-size:2rem;
+}
+
+/* important is used to increase the importance if that change and to overide the old code*/
+.container-fluid{
+    padding:7%  15%!important;
+}
+/* section */
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: black;
+}
+/* navigation bar */
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+.navbar-brand{
+    font-size: 2.5rem !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+    font-family: "Monsterrat-light";
+}
+/* title section */
+#title .container-fluid{
+    padding:3% 15% 7% !important;
+}
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+
+/* Title image */
+.title-img{
+    width: 60% ;
+    /* To rotate img */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+/* feature */
+#features{
+    /* putting the content in center */
+    position: relative;
+}
+/* Icon-feature */
+.icon{
+    color: #ef8172;
+    margin-bottom:1rem ;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+@media (max-width:1028px) {
+   #title{
+       text-align: center;
+   }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+/* testimonials */
+.coloured-section#testimonials{
+  
+  background-color:#ef8172;
+}
+.testimonials-inmg{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+.testimonials-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+/* press */
+.coloured-section#press{
+    background-color: #ef8172;
+}
+.press-logo{
+    width:20%;
+    margin: 20px 20px 50px;
+}
+/* pricing*/
+.pricing-colum{
+    padding: 3% 2%;
+}
+.pricing-heading{
+    font-size: 2.5rem !important;
+    line-height: 1.5 !important;
+    color:black;
+}
+.pricing-text{
+    font-size: 2rem;
+    line-height: 1.5;
+    color:black;
+}
+/*footer*/
+#footer{
+ margin: 10%;
+}
+.foot-links{
+    color: black !important;
+    margin: 20px 10px ;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color:#8f8f8f;
+    font-size: 1.3rem;
+
+}

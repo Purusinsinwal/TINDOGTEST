@@ -1,2 +1,1 @@
-# tindogtest
-beginner
+TinDog Starting Files
